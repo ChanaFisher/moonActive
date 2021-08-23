@@ -1,0 +1,22 @@
+[
+   {
+      "promotionName": {
+         "type": "String",
+         "require": "true"
+      },
+      "type": {
+         "type": "Array",
+         "require": "true"
+      },
+      "userGroupName": {
+         "type": "String"
+      },
+      "endDate": {
+         "type": "String"
+      },
+      "startDate": {
+         "type": "String",
+         "require": "true"
+      }
+   }
+]

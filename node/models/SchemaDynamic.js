@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-let jsonDynamic=require("../models/DataDynamic")
-let dataSchema = mongoose.Schema(jsonDynamic.jsonData)
+const jsonDynamic=require("../models/DataDynamic.json")
+const dataSchema = mongoose.Schema(jsonDynamic[0])
 module.exports = mongoose.model('dataDynamic', dataSchema);
 
